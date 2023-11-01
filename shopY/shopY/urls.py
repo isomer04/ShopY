@@ -25,10 +25,9 @@ app_name = 'item'
 
 
 urlpatterns = [
-    path('', index, name='index'),
+    path('', include('core.urls')),
     path('items/', include('item.urls', )),
 
-    path('contact/', contact, name='contact'),
     path('admin/', admin.site.urls),
     # path('item/', include('item.urls', namespace='item')),
 
