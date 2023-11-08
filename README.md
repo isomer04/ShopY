@@ -5,6 +5,12 @@
 
 This is an online marketplace app built with Django that allows users to create, manage, and browse items for sale. It also includes features like item search, filtering, and a messaging system for buyers and sellers.
 
+## Technologies
+
+- Django
+- Python
+- Tailwind CSS 
+
 ## Features
 
 - Create, update, and delete items for sale.
@@ -59,10 +65,7 @@ python manage.py runserver
 
 This project is licensed under the [Your License Name] License - see the LICENSE file for details.
 
-## Acknowledgements
 
-- Django
-- Tailwind CSS 
 
 
 
